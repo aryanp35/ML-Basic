@@ -12,7 +12,7 @@ import pandas as pd
 # In[2]:
 
 
-cd "D:\machineLearn\Machine_Learning_AZ_Template_Folder\Machine Learning A-Z Template Folder\Part 3 - Classification\Section 17 - Kernel SVM"
+
 
 
 # In[3]:
