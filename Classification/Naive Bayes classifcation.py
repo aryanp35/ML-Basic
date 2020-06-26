@@ -4,7 +4,6 @@
 # In[1]:
 
 
-cd "d:\machineLearn\Machine_Learning_AZ_Template_Folder\Machine Learning A-Z Template Folder\Part 3 - Classification\Section 18 - Naive Bayes"
 
 
 # In[2]:
@@ -84,7 +83,7 @@ plt.xlim(X1.min(), X1.max())
 plt.ylim(X2.min(), X2.max())
 for i, j in enumerate(np.unique(y_set)):
     plt.scatter(X_set[y_set == j, 0], X_set[y_set == j, 1], c = ListedColormap(('red', 'green'))(i), label = j)
-plt.title('K-NN (Training set)')
+plt.title('naive bayes(Training set)')
 plt.xlabel('Age')
 plt.ylabel('Estimated Salary')
 plt.legend()
@@ -104,7 +103,7 @@ plt.xlim(X1.min(), X1.max())
 plt.ylim(X2.min(), X2.max())
 for i, j in enumerate(np.unique(y_set)):
     plt.scatter(X_set[y_set == j, 0], X_set[y_set == j, 1], c = ListedColormap(('red', 'green'))(i), label = j)
-plt.title('K-NN (Test set)')
+plt.title('naive-bayes(Test set)')
 plt.xlabel('Age')
 plt.ylabel('Estimated Salary')
 plt.legend()
