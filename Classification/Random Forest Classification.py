@@ -4,9 +4,6 @@
 # In[1]:
 
 
-cd "d:\machineLearn\Machine_Learning_AZ_Template_Folder\Machine Learning A-Z Template Folder\Part 3 - Classification\Section 19 - Decision Tree Classification"
-
-
 # In[2]:
 
 
@@ -111,24 +108,5 @@ plt.legend()
 plt.show()
 
 
-# In[16]:
 
-
-from sklearn.tree import export_graphviz
-from sklearn.externals.six import StringIO  
-from IPython.display import Image  
-import pydotplus
-
-
-# In[19]:
-
-
-dot_data = StringIO()
-feature_cols=['Age','Salary']
-export_graphviz(classifier, out_file=dot_data,  
-                filled=True, rounded=True,
-                special_characters=True,feature_names = feature_cols,class_names=['0','1'])
-graph = pydotplus.graph_from_dot_data(dot_data.getvalue())  
-graph.write_png('hello.png')
-Image(graph.create_png())
 
