@@ -12,9 +12,6 @@ import pandas as pd
 # In[8]:
 
 
-cd "D:\machineLearn\Machine_Learning_AZ_Template_Folder\Machine Learning A-Z Template Folder\Part 3 - Classification\Section 16 - Support Vector Machine (SVM)"
-
-
 # In[10]:
 
 
