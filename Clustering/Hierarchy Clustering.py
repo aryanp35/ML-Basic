@@ -11,14 +11,6 @@ from matplotlib import style
 import matplotlib as mpl
 
 
-# In[9]:
-
-
-cd "D:\\machineLearn\\Machine_Learning_AZ_Template_Folder\\Machine Learning A-Z Template Folder\\Part 4 - Clustering\\Section 25 - Hierarchical Clustering"
-
-
-# In[11]:
-
 
 dataset = pd.read_csv("Mall_Customers.csv")
 dataset.head()
